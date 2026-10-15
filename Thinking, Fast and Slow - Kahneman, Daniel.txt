@@ -1,0 +1,488 @@
+We called this reliance on the ease of memory search the availability heuristic.
+
+...
+
+heuristic (roughly, a rule of thumb)
+
+...
+
+I describe mental life by the metaphor of two agents, called System 1 and System 2, which respectively produce fast and slow thinking.
+
+...
+
+intuitive System 1 is more influential than your experience tells you,
+
+...
+
+you will perform less well, or not at all, if you are not ready or if your attention is directed inappropriately.
+
+...
+
+cognitive illusions.
+
+...
+
+continuous vigilance is not necessarily good, and it is certainly impractical. Constantly questioning our own thinking would be impossibly tedious, and System 2 is much too slow and inefficient to serve as a substitute for System 1 in making routine decisions. The best we can do is a compromise: learn to recognize situations in which mistakes are likely and try harder to avoid significant mistakes when the stakes are high. The premise of this book is that it is easier to recognize other people’s mistakes than our own.
+
+...
+
+The question that is most often asked about cognitive illusions is whether they can be overcome.
+
+...
+
+Eckhard Hess described the pupil of the eye as a window to the soul. I reread it recently and again found it inspiring. It begins with Hess reporting that his wife had noticed his pupils widening as he watched beautiful nature
+
+...
+
+I was surprised to see that the pupil remained small and did not noticeably dilate as she talked and listened. Unlike the tasks that we were studying, the mundane conversation apparently demanded little or no effort
+
+...
+
+Much like the electricity meter outside your house or apartment, the pupils offer an index of the current rate at which mental energy is used.
+
+...
+
+The similarity was reassuring: the pupil was a good measure of the physical arousal that accompanies mental effort,
+
+...
+
+In contrast, the response to mental overload is selective and precise: System 2 protects the most important activity, so it receives the attention it needs; “spare capacity” is allocated second by second to other tasks.
+
+...
+
+The sophisticated allocation of attention has been honed by a long evolutionary history. Orienting and responding quickly to the gravest threats or most promising opportunities improved the chance of survival, and this capability is certainly not restricted to humans.
+
+...
+
+As you become skilled in a task, its demand for energy diminishes.
+
+...
+
+“a state of effortless concentration so deep that they lose their sense of time, of themselves, of their problems,”
+
+...
+
+self-control and cognitive effort are forms of mental work.
+
+...
+
+simultaneously challenged by a demanding cognitive task and by a temptation are more likely to yield to the temptation.
+
+...
+
+People who are cognitively busy are also more likely to make selfish choices, use sexist language, and make superficial judgments in social situations
+
+...
+
+The conclusion is straightforward: self-control requires attention and effort. Another way of saying this is that controlling thoughts and behaviors is one of the tasks that System 2 performs.
+
+...
+
+if you have had to force yourself to do something, you are less willing or less able to exert self-control when the next challenge comes around.
+
+...
+
+ego depletion.
+
+...
+
+normal when faced with a difficult cognitive task. The list of situations and tasks that are now known to deplete self-
+
+...
+
+activities that impose high demands on System 2 require self-control,
+
+...
+
+activities that impose high demands on System 2 require self-control, and the exertion of self-control is depleting and unpleasant.
+
+...
+
+ego depletion is at least in part a loss of motivation.
+
+...
+
+After exerting self-control in one task, you do not feel like making an effort in another,
+
+...
+
+The nervous system consumes more glucose than most other parts of the body, and effortful mental activity appears to be especially expensive in the currency of glucose.
+
+...
+
+The bold implication of this idea is that the effects of ego depletion could be undone by ingesting glucose, and Baumeister and his colleagues have confirmed this hypothesis in several experiments.
+
+...
+
+Volunteers in one of their studies watched a short silent film of a woman being interviewed and were asked to interpret her body language. While they were performing the task, a series of words crossed the screen in slow succession. The participants were specifically instructed to ignore the words, and if they found their attention drawn away they had to refocus their concentration on the woman’s behavior. This act of self-control was known to cause ego depletion. All the volunteers drank some lemonade before participating in a second task. The lemonade was sweetened with glucose for half of them and with Splenda for the others. Then all participants were given a task in which they needed to overcome an intuitive response to get the correct answer. Intuitive errors are normally much more frequent among ego-depleted people, and the drinkers of Splenda showed the expected depletion effect. On the other hand, the glucose drinkers were not depleted. Restoring the level of available sugar in the brain had prevented the deterioration of performance. It will take some time and much further research to establish whether the tasks that cause glucose-depletion also cause the momentary arousal that is reflected in increases of pupil size and heart rate.
+
+...
+
+They spend entire days reviewing applications for parole. The cases are presented in random order, and the judges spend little time on each one, an average of 6 minutes. (The default decision is denial of parole; only 35% of requests are approved. The exact time of each decision is recorded, and the times of the judges’ three food breaks—morning break, lunch, and afternoon break—during the day are recorded as well.) The authors of the study plotted the proportion of approved requests against the time since the last food break. The proportion spikes after each meal, when about 65% of requests are granted.
+
+...
+
+tired and hungry judges tend to fall back on the easier default position of denying requests for parole. Both fatigue and hunger probably play a role.
+
+...
+
+many people are overconfident, prone to place too much faith in their intuitions. They apparently find cognitive effort at least mildly unpleasant and avoid it as much as possible.
+
+...
+
+System 2 is to monitor and control thoughts and actions “suggested” by System 1,
+
+...
+
+intuitive answer also came to the mind of those who ended up with the correct number—they somehow managed to resist the intuition. Shane Frederick and I worked together
+
+...
+
+Intelligence is not only the ability to reason; it is also the ability to find relevant material in memory and to deploy attention when needed.
+
+...
+
+Failing these minitests appears to be, at least to some extent, a matter of insufficient motivation, not trying hard enough.
+
+...
+
+Those who avoid the sin of intellectual sloth could be called “engaged.” They are more alert, more intellectually active, less willing to be satisfied with superficially attractive answers, more skeptical about their intuitions.
+
+...
+
+The psychologist Keith Stanovich would call them more rational.
+
+...
+
+If people were ranked by their self-control and by their cognitive aptitude, would individuals have similar positions in the two rankings? In
+
+...
+
+link between cognitive control and intelligence in several
+
+...
+
+Individuals who uncritically follow their intuitions about puzzles are also prone to accept other suggestions from System 1. In particular, they are impulsive, impatient, and keen to receive immediate gratification.
+
+...
+
+Frederick’s findings suggest that the characters of our psychodrama have different “personalities.” System 1 is impulsive and intuitive; System 2 is capable of reasoning, and it is cautious, but at least for some people it is also lazy.
+
+...
+
+What makes some people more susceptible than
+
+...
+
+What makes some people more susceptible than others to biases of judgment?
+
+...
+
+Stanovich argues that high intelligence does not make people immune to biases.
+
+...
+
+Another ability is involved, which he labels rationality.
+
+...
+
+He draws a sharp distinction between two parts of System 2—indeed, the distinction is so sharp that he calls them separate “minds.”
+
+...
+
+The core of his argument is that rationality should be distinguished from intelligence.
+
+...
+
+superficial or “lazy” thinking is a flaw in the reflective mind,
+
+...
+
+In his view, superficial or “lazy” thinking is a flaw in the reflective mind, a failure of rationality.
+
+...
+
+Stanovich and his colleagues have found that the bat-and-ball question and others like it are somewhat better indicators of our susceptibility to cognitive errors than are conventional measures of intelligence, such as IQ tests. Time will tell whether the distinction between intelligence and rationality can lead to new discoveries.
+
+...
+
+The events that took place as a result of your seeing the words happened by a process called associative activation: ideas that have been evoked trigger many other ideas, in a spreading cascade of activity in your brain.
+
+...
+
+As cognitive scientists have emphasized in recent years, cognition is embodied; you think with your body, not only with your brain.
+
+...
+
+This remarkable priming phenomenon—the influencing of an action by the idea—is known as the ideomotor effect.
+
+...
+
+Students were asked to walk around a room for 5 minutes at a rate of 30 steps per minute, which was about one-third their normal pace. After this brief experience, the participants were much quicker to recognize words related to old age, such as forgetful, old, and lonely.
+
+...
+
+Students were asked to walk around a room for 5 minutes at a rate of 30 steps per minute, which was about one-third their normal pace. After this brief experience, the participants were much quicker to recognize words related to old age, such as forgetful, old, and lonely. Reciprocal priming effects tend to produce a coherent reaction: if you were primed to think of old age, you would tend to act old, and acting old would reinforce the thought of old age.
+
+...
+
+You can see why the common admonition to “act calm and kind regardless of how you feel” is very good advice: you are likely to be rewarded by actually feeling calm and kind.
+
+...
+
+The Marvels of Priming
+
+...
+
+If you have recently seen or heard the word EAT, you are temporarily more likely to complete the word fragment SO_P as SOUP than as SOAP. The opposite would happen, of course, if you had just seen WASH. We call this a priming effect and say that the idea of EAT primes the idea of SOUP, and that WASH primes SOAP.
+
+...
+
+Another major advance in our understanding of memory was the discovery that priming is not restricted to concepts and words. You cannot know this from conscious experience, of course, but you must accept the alien idea that your actions and your emotions can be primed by events of which you are not even aware.
+
+...
+
+We now know that the effects of priming can reach into every corner of our lives.
+
+...
+
+money primes individualism: a reluctance to be involved with others, to depend on others, or to accept demands from others.
+
+...
+
+reminding people of their mortality increases the appeal of authoritarian ideas, which may become reassuring in the context of the terror of death.
+
+...
+
+merely thinking about stabbing a coworker in the back leaves people more inclined to buy soap, disinfectant, or detergent than batteries, juice, or candy bars.
+
+...
+
+This is not a surprise: System 2 believes that it is in charge and that it knows the reasons for its choices.
+
+...
+
+How is it possible for such trivial manipulations of the context to have such large effects?
+
+...
+
+Do these experiments demonstrate that we are completely at the mercy of whatever primes the environment provides at any moment?
+
+...
+
+The idea you should focus on, however, is that disbelief is not an option.
+
+...
+
+You have no choice but to accept that the major conclusions of these studies are true. More important, you must accept that they are true about you.
+
+...
+
+You have no choice but to accept that the major conclusions of these studies are true. More important, you must accept that they are true about you. If you had been exposed to a screen saver of floating dollar bills, you too would likely have picked up fewer pencils to help a clumsy stranger. You do not believe that these results apply to you because they correspond to nothing in your subjective experience. But your subjective experience consists largely of the story that your System 2 tells itself about what is going on. Priming phenomena arise in System 1, and you have no conscious access to them.
+
+...
+
+perfect demonstration of a priming effect, which was conducted in an office kitchen at a British university.
+
+...
+
+Evidently, a purely symbolic reminder of being watched prodded people into improved behavior. As we expect at this point, the effect occurs without any awareness.
+
+...
+
+You have now been introduced to that stranger in you, which may be in control of much of what you do, although you rarely have a glimpse of it. System 1 provides the impressions that often turn into your beliefs, and is the source of the impulses that often become your choices and your actions.
+
+...
+
+You have now been introduced to that stranger in you, which may be in control of much of what you do, although you rarely have a glimpse of it. System 1 provides the impressions that often turn into your beliefs, and is the source of the impulses that often become your choices and your actions. It offers a tacit interpretation of what happens to you and around you, linking the present with the recent past and with expectations about the near future.
+
+...
+
+It is the source of your rapid and often precise intuitive judgments. And it does most of this without your conscious awareness of its activities. System 1 is also, as we will see in the following chapters, the origin of many of the systematic errors in your intuitions.
+
+...
+
+“His System 1 constructed a story, and his System 2 believed it. It happens to all of us.”
+
+...
+
+The assessments are carried out automatically by System 1, and one of their functions is to determine whether extra effort is required from System 2.
+
+...
+
+Whenever you are conscious, and perhaps even when you are not, multiple computations are going on in your brain, which maintain and update current answers to some key questions: Is anything new going on? Is there a threat? Are things going well? Should my attention be redirected? Is more effort needed for this task?
+
+...
+
+cognitive ease,
+
+...
+
+“Easy” and “Strained.” Easy is a sign that things are going well
+
+...
+
+range is between “Easy” and “Strained.”
+
+...
+
+Strained indicates that a problem exists, which will require increased mobilization of System
+
+...
+
+Strained indicates that a problem exists, which will require increased mobilization of System 2.
+
+...
+
+cognitive strain.
+
+...
+
+Cognitive strain is affected by both the current level of effort and the presence of unmet demands.
+
+...
+
+When you are in a state of cognitive ease, you are probably in a good mood,
+
+...
+
+When you are in a state of cognitive ease, you are probably in a good mood, like what you see, believe what you hear, trust your intuitions, and feel that the current situation is comfortably familiar.
+
+...
+
+likely to be relatively casual and superficial in your thinking.
+
+...
+
+feel strained, you are more likely to be vigilant and suspicious, invest more effort in what you are doing, feel less comfortable, and make fewer errors, but you also are less intuitive and less creative than usual.
+
+...
+
+But vision is not the only domain of illusions; memory is also susceptible to them, as is thinking more generally.
+
+...
+
+“The experience of familiarity has a simple but powerful quality of ‘pastness’ that seems to indicate that it is a direct reflection of prior experience.”
+
+...
+
+“The experience of familiarity has a simple but powerful quality of ‘pastness’ that seems to indicate that it is a direct reflection of prior experience.” This quality of pastness is an illusion.
+
+...
+
+you experience greater cognitive ease in perceiving a word you have seen earlier, and it is this sense of ease that gives you the impression of familiarity.
+
+...
+
+Words that you have seen before become easier to see again—you can identify them better than other words
+
+...
+
+A recurrent theme of this book is that luck plays a large role in every story of success;
+
+...
+
+A team of researchers at the University of Oregon explored the link between cognitive control and intelligence in several ways, including an attempt to raise intelligence by improving the control of attention. During five 40-minute sessions, they exposed children aged four to six to various computer games especially designed to demand attention and control. In one of the exercises, the children used a joystick to track a cartoon cat and move it to a grassy area while avoiding a muddy area. The grassy areas gradually shrank and the muddy area expanded, requiring progressively more precise control. The testers found that training attention not only improved executive control; scores on nonverbal tests of intelligence also improved and the improvement was maintained for several months. Other research by the same group identified specific genes that are involved in the control of attention, showed that parenting techniques also affected this ability, and demonstrated a close connection between the children’s ability to control their attention and their ability to control their emotions.
+
+...
+
+Kathleen Vohs, has been laudably restrained in discussing the implications of her findings, leaving the task to her readers. Her experiments are profound—her findings suggest that living in a culture that surrounds us with reminders of money may shape our behavior and our attitudes in ways that we do not know about and of which we may not be proud.
+
+...
+
+If you cannot remember the source of a statement, and have no way to relate it to other things you know, you have no option but to go with the sense of cognitive ease.
+
+...
+
+Both are false (Hitler was born in 1889), but experiments have shown that the first is more likely to be believed. More advice: if your message is to be printed, use high-quality paper to maximize the contrast between characters and their background. If you use color, you are more likely to be believed if your text is printed in bright blue or red than in middling shades of green, yellow, or pale blue.
+
+...
+
+The experimenters recruited 40 Princeton students to take the CRT. Half of them saw the puzzles in a small font in washed-out gray print. The puzzles were legible, but the font induced cognitive strain. The results tell a clear story: 90% of the students who saw the CRT in normal font made at least one mistake in the test, but the proportion dropped to 35% when the font was barely legible. You read this correctly: performance was better with the bad font.
+
+...
+
+The experimenters recruited 40 Princeton students to take the CRT. Half of them saw the puzzles in a small font in washed-out gray print. The puzzles were legible, but the font induced cognitive strain. The results tell a clear story: 90% of the students who saw the CRT in normal font made at least one mistake in the test, but the proportion dropped to 35% when the font was barely legible. You read this correctly: performance was better with the bad font. Cognitive strain, whatever its source, mobilizes System 2, which is more likely to reject the intuitive answer suggested by System 1.
+
+...
+
+associated with good feelings. As expected, easily pronounced words evoke a favorable attitude. Companies with pronounceable names do better than others for the first week after the stock is issued, though the effect disappears over time. Stocks with pronounceable trading symbols (like KAR or LUNMOO) outperform those with tongue-twisting tickers like PXG or RDO—and they appear to retain a small advantage over some time. A study conducted in Switzerland found that investors believe that stocks with fluent names like Emmi, Swissfirst, and Comet will earn higher returns than those with clunky labels like Geberit and Ypsomed.
+
+...
+
+the words that were presented more frequently were rated much more favorably
+
+...
+
+the words that were presented more frequently were rated much more favorably than the words that had been shown only once or twice.
+
+...
+
+Zajonc argued that the effect of repetition on liking is a profoundly important biological fact, and that it extends to all animals. To survive in a frequently dangerous world, an organism should react cautiously to a novel stimulus, with withdrawal and fear. Survival prospects are poor for an animal that is not suspicious of novelty.
+
+...
+
+The consequences of repeated exposures benefit the organism in its relations to the immediate animate and inanimate environment. They allow the organism to distinguish objects and habitats that are safe from those that are not, and they are the most primitive basis of social attachments. Therefore, they form the basis for social organization and cohesion—the basic sources of psychological and social stability.
+
+...
+
+Another remarkable discovery is the powerful effect of mood on this intuitive performance. The experimenters computed an “intuition index” to measure accuracy. They found that putting the participants in a good mood before the test by having them think happy thoughts more than doubled accuracy. An even more striking result is that unhappy subjects were completely incapable of performing the intuitive task accurately; their guesses were no better than random. Mood evidently affects the operation of System 1: when we are uncomfortable and unhappy, we lose touch with our intuition.
+
+...
+
+findings add to the growing evidence that good mood, intuition, creativity, gullibility, and increased reliance on System 1 form a cluster.
+
+...
+
+findings add to the growing evidence that good mood, intuition, creativity, gullibility, and increased reliance on System 1 form a cluster. At the other pole, sadness, vigilance, suspicion, an analytic approach, and increased effort also go together.
+
+...
+
+A good mood is a signal that things are generally going well, the environment is safe, and it is all right to let one’s guard down. A bad mood indicates that things are not going very well, there may be a threat, and vigilance is required. Cognitive ease is both a cause and a consequence of a pleasant feeling.
+
+...
+
+“Familiarity breeds liking. This is a mere exposure effect.”
+
+...
+
+The commonly accepted wisdom was that we infer physical causality from repeated observations of correlations among events.
+
+...
+
+Your mind is ready and even eager to identify agents, assign them personality traits and specific intentions, and view their actions as expressing individual propensities. Here again, the evidence is that we are born prepared to make intentional attributions: infants under one year old identify bullies and victims, and expect a pursuer to follow the most direct path in attempting to catch whatever it is chasing.
+
+...
+
+The psychologist Paul Bloom, writing in The Atlantic in 2005, presented the provocative claim that our inborn readiness to separate physical and intentional causality explains the near universality of religious beliefs. He observes that “we perceive the world of objects as essentially separate from the world of minds, making it possible for us to envision soulless bodies and bodiless souls.”
+
+...
+
+When uncertain, System 1 bets on an answer, and the bets are guided by experience. The rules of the betting are intelligent: recent events and the current context have the most weight in determining an interpretation.
+
+...
+
+when System 2 is otherwise engaged, we will believe almost anything.
+
+...
+
+when System 2 is otherwise engaged, we will believe almost anything. System 1 is gullible and biased to believe, System 2 is in charge of doubting and unbelieving,
+
+...
+
+Exaggerated Emotional Coherence (Halo Effect) If you like the president’s politics, you probably like his voice and his appearance as well. The tendency to like (or dislike) everything about a person—including things you have not observed—is known as the halo effect.
+
+...
+
+The sequence in which we observe characteristics of a person is often determined by chance. Sequence matters, however, because the halo effect increases the weight of first impressions, sometimes to the point that subsequent information is mostly wasted.
+
+...
+
+To derive the most useful information from multiple sources of evidence, you should always try to make these sources independent of each other.
+
+...
+
+The principle of independent judgments (and decorrelated errors) has immediate applications for the conduct of meetings, an activity in which executives in organizations spend a great deal of their working days. A simple rule can help: before an issue is discussed, all members of the committee should be asked to write a very brief summary of their position.
+
+...
+

@@ -1,0 +1,508 @@
+The first step towards becoming a good software designer is to realize that working code isn’t enough.
+
+...
+
+No matter how much you invest up front, there will inevitably be mistakes in your design decisions.
+
+...
+
+modules that are relatively independent.
+
+...
+
+In order to identify and manage dependencies, we think of each module in two parts: an interface and an implementation.
+
+...
+
+interface consists of everything that a developer working in a different module must know in order to use the given module.
+
+...
+
+module is any unit of code that has an interface and an implementation.
+
+...
+
+best modules are those whose interfaces are much simpler than their implementations.
+
+...
+
+module contains two kinds of information: formal and informal.
+
+...
+
+formal parts of an interface are specified explicitly in the code, and some of these can be checked for correctness by the programming language.
+
+...
+
+The informal parts of an interface include its high-level behavior, such as the fact that a function deletes the file named by one of its arguments.
+
+...
+
+The informal aspects of an interface can only be described using comments,
+
+...
+
+An abstraction can go wrong in two ways. First, it can include details that are not really important; when this happens, it makes the abstraction more complicated than necessary, which increases the cognitive load on developers using the abstraction. The second error is when an abstraction omits details that really are important.
+
+...
+
+each module provides an abstraction in the form of its interface.
+
+...
+
+The best modules are deep: they have a lot of functionality hidden behind a simple interface.
+
+...
+
+Interfaces are good, but more, or larger, interfaces are not necessarily better!
+
+...
+
+A shallow module is one whose interface is complicated relative to the functionality it provides.
+
+...
+
+If a piece of information is hidden, there are no dependencies on that information outside the module containing the information,
+
+...
+
+Information leakage occurs when a design decision is reflected in multiple modules.
+
+...
+
+If a piece of information is reflected in the interface for a module, then by definition it has been leaked;
+
+...
+
+Suppose two classes both have knowledge of a particular file format (perhaps one class reads files in that format and the other class writes them). Even if neither class exposes that information in its interface, they both depend on the file format: if the format changes, both classes will need to be modified. Back-door leakage like this is more pernicious than leakage through an interface, because it isn’t obvious.
+
+...
+
+temporal decomposition, the structure of a system corresponds to the time order in which operations will occur.
+
+...
+
+Information leakage occurs when the same knowledge is used in multiple places, such as two different classes that both understand the format of a particular type of
+
+...
+
+When designing modules, focus on the knowledge that’s needed to perform each task, not the order in which tasks occur.
+
+...
+
+information hiding can often be improved by making a class slightly larger. One reason for doing this is to bring together all of the code related to a particular capability (such as parsing an HTTP request), so that the resulting class contains everything related to that capability.
+
+...
+
+having separate methods for each of three steps of a computation, have a single method that performs the entire computation. This can result in a simpler interface.
+
+...
+
+The basic idea is that each module should encapsulate a few pieces of knowledge, which represent design decisions. The knowledge is embedded in the module’s implementation but does not appear in its interface, so it is not visible to other modules.
+
+...
+
+If you can hide more information, you should also be able to simplify the module’s interface, and this makes the module deeper.
+
+...
+
+If a module hides a lot of information, that tends to increase the amount of functionality provided by the module while also reducing its interface. This makes the module deeper. Conversely, if a module doesn’t hide much information, then either it doesn’t have much
+
+...
+
+functionality, or it has a complex interface; either way, the module is shallow.
+
+...
+
+Instead, think about the different pieces of knowledge that are needed to carry out the tasks of your application, and design each module to encapsulate one or a few of those pieces of knowledge.
+
+...
+
+over-specialization may be the single greatest cause of complexity in software.
+
+...
+
+code that is more general-purpose is simpler, cleaner, and easier to understand.
+
+...
+
+(general-purpose APIs result in more information hiding).
+
+...
+
+The phrase “somewhat general-purpose” means that the module’s functionality should reflect your current needs, but its interface should not.
+
+...
+
+The word “somewhat” is important: don’t get carried away and build something so general-purpose that it is difficult to use for your current needs.
+
+...
+
+When the details are important, it is better to make them explicit and as obvious as possible, such as the revised implementation of the backspace operation. Hiding this information behind an interface just creates obscurity.
+
+...
+
+One of the most important elements of software design is determining who needs to know what, and when.
+
+...
+
+If you reduce the number of methods in an API without reducing its overall capabilities, then you are probably creating more general-purpose methods.
+
+...
+
+The special-purpose text API had at least three methods for deleting text: backspace, delete, and deleteSelection. The more general-purpose API had only one method for deleting text, which served all three purposes.
+
+...
+
+if you have to introduce lots of additional arguments in order to reduce the number of methods, then you may not really be simplifying things.
+
+...
+
+If a method is designed for one particular use, such as the backspace method, that is a red flag that it may be too special-purpose. See if you can replace several special-purpose methods with a single general-purpose method.
+
+...
+
+If you have to write a lot of additional code to use a class for your current purpose, that’s a red flag that the interface doesn’t provide the right functionality.
+
+...
+
+too far in making an API simple and general-purpose.
+
+...
+
+example,
+
+...
+
+However, specialized code should be cleanly separated from general-purpose
+
+...
+
+However, specialized code should be cleanly separated from general-purpose code.
+
+...
+
+pushing the specialized code either up or down in the software stack.
+
+...
+
+push it upwards. The top-level classes of an application, which provide specific features,
+
+...
+
+But this specialization need not percolate down into the lower-level classes that are used to implement the features.
+
+...
+
+Sometimes the best approach is to push specialization downwards.
+
+...
+
+For each different device, a device driver module implements the general-purpose interface using the specialized features of that particular device.
+
+...
+
+if a device has enough features to implement the device driver interface, it can be added to the system with no changes to the main operating system.
+
+...
+
+operating systems define an interface with general-purpose operations that any secondary storage device must implement,
+
+...
+
+Special cases can result in code that is riddled with if statements, which make the code hard to understand and are prone to bugs.
+
+...
+
+The best way to do this is by designing the normal case in a way that automatically handles the edge conditions without any extra code.
+
+...
+
+The selection handling code can be simplified by eliminating the “no selection”
+
+...
+
+The backspace method in the original version of the text class was a false abstraction.
+
+...
+
+If a system contains adjacent layers with similar abstractions, this is a red flag
+
+...
+
+Software systems are composed in layers, where higher layers use the facilities provided by lower layers.
+
+...
+
+layer provides a different abstraction from the layers above and below it;
+
+...
+
+each layer provides a different abstraction from the layers above and below it;
+
+...
+
+A pass-through method is one that does little except invoke another method, whose signature is similar or identical to that of the calling method.
+
+...
+
+Pass-through methods make classes shallower: they increase the interface complexity of the class, which adds complexity, but they don’t increase the total functionality of the system.
+
+...
+
+“Exactly which features and abstractions is each of these classes responsible for?” You will probably notice that there is an overlap in responsibility between the classes.
+
+...
+
+refactor the classes so that each class has a distinct and coherent set of responsibilities.
+
+...
+
+Before creating a decorator class, consider alternatives such as the following: Could you add the new functionality
+
+...
+
+Having methods with the same signature is not always bad.
+
+...
+
+it’s useful for a method to call another method with the same signature is a dispatcher.
+
+...
+
+A dispatcher is a method that uses its arguments to select one of several other methods to invoke;
+
+...
+
+A dispatcher is a method that uses its arguments to select one of several other methods to invoke; then it passes most or all of its arguments to the chosen method.
+
+...
+
+pass-through variable, which is a variable that is passed down through a long chain of methods.
+
+...
+
+force all of the intermediate methods to be aware of their existence, even though the methods have no use for the variables.
+
+...
+
+One approach is to see if there is already an object shared between the topmost and bottommost methods.
+
+...
+
+global variable,
+
+...
+
+but global variables almost always create other problems.
+
+...
+
+The solution I use most often is to introduce a context object
+
+...
+
+A context stores all of the application’s global state (anything that
+
+...
+
+Possible techniques for dealing with a pass-through variable. In (a), cert is passed through methods m1 and m2 even though they don’t use it. In (b), main and m3 have shared access to an object, so the variable can be stored there instead of passing it through m1 and m2. In (c), cert is stored as a global variable. In (d), cert is stored in a context object along with other system-wide information, such as a timeout value and performance counters; a reference to the context is stored in all objects whose methods need access to it.
+
+...
+
+To reduce the number of methods that must be aware of it, a reference to the context can be saved in most of the system’s major objects.
+
+...
+
+The context object unifies the handling of all system-global information and eliminates the need for pass-through variables. If a new variable needs to be added, it can be added to the context object; no existing code is affected except for the constructor and destructor for the context. The context makes it easy to identify and manage the global state of the system, since it is all stored in one place. The context is also convenient for testing: test code can change the global configuration of the application by modifying fields in the context. It would be much more difficult to implement such changes if the system used pass-through variables.
+
+...
+
+far from an ideal solution.
+
+...
+
+disadvantages of global variables;
+
+...
+
+context can turn into a huge grab-bag of data that creates nonobvious dependencies throughout the system.
+
+...
+
+variables in a context to be immutable.
+
+...
+
+Advocates argue that configuration parameters are good because they allow users to tune the system for their particular requirements and workloads. In some situations it is hard for low-level infrastructure code to know the best policy to apply, whereas users are much more familiar with their domains. For instance, a user might know that some requests are more time-critical than others, so it makes sense for the user to specify a higher priority for those requests. In situations like this, configuration parameters can result in better performance across a broader variety of domains.
+
+...
+
+However, configuration parameters also provide an easy excuse to avoid dealing with important issues and pass them on to someone else.
+
+...
+
+Consider a network protocol that must deal with lost packets. If it sends a request but doesn’t receive a response within a certain time period, it resends the request. One way to determine the retry interval is to introduce a configuration parameter. However, the transport protocol could compute a reasonable value on its own by measuring the response time for requests that succeed and then using a multiple of this for the retry interval. This approach pulls complexity downward and saves users from having to figure out the right retry interval.
+
+...
+
+Before exporting a configuration parameter, ask yourself: “will users (or higher-level modules) be able to determine a better value than we can determine here?” When you do create configuration parameters, see if you can provide reasonable defaults, so users will only need to provide values under exceptional conditions.
+
+...
+
+configuration parameters result in an incomplete solution, which adds to system complexity.
+
+...
+
+defined methods in the text class that reflected the user interface, such as a method that implements the functionality of the backspace key. It might seem that this is good, since it pulls complexity downward. However, adding knowledge of the user interface to the text class doesn’t simplify higher-level code very much,
+
+...
+
+given two pieces of functionality, should they be implemented together in the same place, or should their implementations be separated?
+
+...
+
+However, the act of subdividing creates additional complexity that was not present before subdivision:
+
+...
+
+It might appear that the best way to achieve this goal is to divide the system into a large number of small components: the smaller the components, the simpler each individual component is likely to be. However, the act of subdividing creates additional complexity that was not present before subdivision:
+
+...
+
+more interfaces, and every new interface adds complexity.
+
+...
+
+Separation makes it harder for developers to see the components at the same time, or even to be aware of their existence.
+
+...
+
+If the components are truly independent, then separation is good: it allows the developer to focus on a single component at a time, without being distracted by the other components. On the other hand, if there are dependencies between the components, then separation is bad: developers will end up flipping back and forth between the components. Even worse, they may not be aware of the dependencies, which can lead to bugs.
+
+...
+
+Bringing pieces of code together is most beneficial if they are closely related. If the pieces are unrelated, they are probably better off apart.
+
+...
+
+They share information; for example, both pieces of code might depend on the syntax of a particular type of document.
+
+...
+
+They are used together: anyone using one of the pieces of code is likely to use the other as well. This form
+
+...
+
+compelling if it is bidirectional. As a counter-example, a disk block
+
+...
+
+They overlap conceptually,
+
+...
+
+For example, searching for a substring and case conversion both fall under the category of string manipulation; flow control and reliable delivery both fall under the category of network communication.
+
+...
+
+It should not include code that specializes the mechanism for a particular use, nor should it contain other general-purpose mechanisms.
+
+...
+
+This separation added complexity with no benefit. The logging methods were shallow: most consisted of a single line of code, but they required a considerable amount of documentation.
+
+...
+
+You shouldn’t break up a method unless it makes the overall system simpler;
+
+...
+
+method should have a simple interface, so that users don’t need to have much information in their heads in order to use it correctly.
+
+...
+
+its interface should be much simpler than its implementation.
+
+...
+
+If you make a split of this form and then find yourself flipping back and forth between the parent and child to understand how they work together, that is a red flag (“Conjoined Methods”) indicating that the split was probably a bad idea.
+
+...
+
+if the original method had an overly complex interface because it tried to do multiple things that were not closely related.
+
+...
+
+break up a method is to split it into two separate methods,
+
+...
+
+reduce the number of places where exceptions must be handled;
+
+...
+
+The key overall lesson from this chapter is to reduce the number of places where exceptions must be handled;
+
+...
+
+The best way to reduce the complexity damage caused by exception handling is to reduce the number of places where exceptions have to be handled.
+
+...
+
+exception aggregation. The idea behind exception aggregation is to handle many exceptions with a single piece of code; rather than writing distinct handlers for many individual exceptions, handle them all in one place with a single handler.
+
+...
+
+first thoughts about how to structure a module or system will produce the best design.
+
+...
+
+Designing software is hard, so it’s unlikely that your first thoughts about how to structure a module or system will produce the best design.
+
+...
+
+if you consider multiple options for each major design decision: design it twice.
+
+...
+
+much better result if you consider multiple options for each major design decision: design it twice.
+
+...
+
+It is also worth considering other factors: Does one alternative have a simpler interface than another? In the text example, all of the text interfaces are relatively simple. Is one interface more general-purpose than another? Does one interface enable a more efficient implementation than another? In the text example, the character-oriented approach is likely to be significantly slower than the others, because it requires a separate call into the text module for each character.
+
+...
+
+The goals will be different for the implementation than for the interface: for the implementation, the most important things are simplicity and performance.
+
+...
+
+The design of large software systems falls in this category: no-one is good enough to get it right with their first try.
+
+...
+
+first ideas are no longer good enough; if you want to get really great results, you have to consider a second possibility, or perhaps a third,
+
+...
+
+can be applied at many levels in a system. For a module, you can use this approach first to pick the interface, as described above.
+
+...
+
+The design-it-twice principle can be applied at many levels in a system. For a module, you can use this approach first to pick the interface, as described above.
+
+...
+
+If users must read the code of a method in order to use it, then there is no abstraction:
+
+...
+
+But comments do not represent failures. The information they provide is quite different from that provided by code, and this information can’t be represented in code today.
+
+...
+
+One of the purposes of comments is to make it it unnecessary to read the code: for example, instead of reading the entire body of a method, a developer can read a short interface comment to get all the information they need in order to invoke the method.
+
+...
+
